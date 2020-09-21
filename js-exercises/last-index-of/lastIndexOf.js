@@ -1,6 +1,6 @@
-function lastIndexOf(arg1, arg2) {
-  const key = arg1;
-  const arr = arg2;
+function lastIndexOf(...args) {
+  const key = args[0];
+  const arr = args[1];
   if (arr.includes(key)) {
     for (let i = arr.length - 1; i => 0; i--) {
       if (arr[i] === key) {
